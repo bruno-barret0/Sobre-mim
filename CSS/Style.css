@@ -1,0 +1,99 @@
+body{
+    color: white;
+    background-image: linear-gradient(
+        rgb(39, 39, 39),
+        rgb(0, 0, 0)
+    );
+    height: 100%;
+
+     color:rgb(197, 200, 233);
+     font-family: sans-serif;
+     
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: symbols();
+    align-items: flex-end;
+    padding: 0.5%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5% solid white;
+  }
+
+.center{
+    text-align: center;
+    
+}
+
+.nome{
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(127, 178, 255);
+}
+
+.tsobre{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(127, 178, 255);
+}
+
+.tform{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(127, 178, 255);
+}
+
+.tcursos{
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(127, 178, 255);
+}
+
+
+
+.container{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    align-items: safe;
+    padding-top: 0.2em;
+    padding-left: 3em;
+    font-size: 2em;
+
+}
+.mario{
+    height: 2.5em;
+    animation: run-mario 20s linear infinite;
+    transition: right 2s linear;
+    transition-duration: 2s;
+    position: relative;
+    right: 0;
+    
+}
+
+@keyframes run-mario{
+    from{
+        right: 200px;
+    }
+
+    to{
+        right: -1220px;
+    }
+}
